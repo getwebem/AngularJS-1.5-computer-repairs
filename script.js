@@ -5,13 +5,34 @@ var app = angular.module('computer', ['ngRoute'])
         templateUrl: 'main.html',
         controller : 'MainController'
     })
+    .when('/about', {
+    templateUrl: 'about.html',
+    controller : 'MainController'
+    })
+    .when('/services', {
+    templateUrl: 'services.html',
+    controller : 'ServicesController'
+    })
+    .when('/contact', {
+    templateUrl: 'contact.html',
+    controller : 'ContactController'
+    })
     .otherwise({redirectTo:'/main'})
-}])
-.controller('MainController', ['$scope', function($scope){
-    $scope.person = 'John Doe';
-    console.log($scope);
- 
-}]);
+    }])
+    .controller('MainController', ['$scope', function($scope){
+
+
+    }])
+    .controller('ServicesController', ['$scope', '$http', function($scope, $http){
+    $http.get('services.json').then(function(response){
+        $scope.services = response.data;
+    })
+
+    }])
+    .controller('ContactController', ['$scope', function($scope){
+
+
+    }]);
 
 
 
