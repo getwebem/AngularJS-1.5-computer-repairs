@@ -1,6 +1,6 @@
 #Jump Start AngularJS 1.5
 ####**Getting started**
-####**Technologies Used** `HTML5, CSS3, Angular.js 1.5, Bootstrap 3.3.7`
+####**Technologies Used** `HTML5, CSS3, Angular.js 1.5, Bootstrap 3.3.7, $http, JSON`
  - Run  :  `git clone https://github.com/getwebem/computer-solutions.git`
  - Run  :  `cd computer-solutions`
  - Open :  `Index.html`
