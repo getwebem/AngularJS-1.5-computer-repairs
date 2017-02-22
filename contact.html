@@ -3,28 +3,15 @@
       <div class="row">
         <div class="col-md-12">
           <h2>Contact</h2>
-          <p>Please email support@computersolutions.com </p>
+          <p>customer_service@computersolutions.eu </p>
           <h3>Locations</h3>
+          <div ng-repeat='location in locations'>
           <ul>
-              <li>Stalin City</li>
-              <li>555 Main Street</li>
-              <li>Stalin MA, 01902</li>
-              <li>781-389-55555</li>
-              <li>USA</li>
+              <li>{{location.name}}</li>
+              <li>{{location.street_address}}</li>
+              <li>{{location.city}} {{location.state}}, {{location.zip}}</li>
+              <li>{{location.phone}}</li>
+              <li>{{location.country}}</li>
           </ul>
-             <ul>
-              <li>Stockholm</li>
-              <li>555 Main Street</li>
-              <li>Stalin MA, 01902</li>
-              <li>45-5678-7890</li>
-              <li>Sweden</li>
-          </ul>
-             <ul>
-              <li>Berlin</li>
-              <li>Calvinstrazzar 28B</li>
-              <li>Berlin </li>
-              <li>47-1234-5678</li>
-              <li>Germany</li>
-          </ul>
-        </div>
-      </div>
+          </div>
+             

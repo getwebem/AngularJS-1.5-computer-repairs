@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "North America",
+        "street_address": "555 Main Street",
+        "city": "Stalin City",
+        "state": "MA",
+        "zip": "01902",
+        "phone": "781-389-55555",
+        "country": "USA"
+    },
+    {
+        "id": 1,
+        "name": "Scandinavia",
+        "street_address": "Storgatan 56c",
+        "city": "Stockholm",
+        "state": "",
+        "zip": "012 33",
+        "phone": "+45-5678-7890",
+        "country": "Sweden"
+    },
+    {
+        "id": 1,
+        "name": "Central Europe",
+        "street_address": "Calvinstrazzar 28",
+        "city": "Berlin",
+        "state": "",
+        "zip": "6548",
+        "phone": "0146807976",
+        "country": "Germany"
+    }
+]
