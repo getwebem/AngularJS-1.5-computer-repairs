@@ -1,7 +1,7 @@
-#Computer Repair Landing page
-###**Getting started**
-###Technologies Used: 
-####HTML5, CSS3, Angular.js 1.5, Bootstrap 3.3, JavaScript ES5, JSON
+# Computer Repair Landing page
+### **Getting started**
+### Technologies Used: 
+#### HTML5, CSS3, Angular.js 1.5, Bootstrap 3.3, JavaScript ES5, JSON
  - Run  :  `git clone https://github.com/getwebem/computer-solutions.git`
  - Run  :  `cd computer-solutions`
  - Run  :  `Brackets .`
